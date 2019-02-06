@@ -1,0 +1,18 @@
+
+
+.container {
+    display: grid;
+
+}
+
+/* navigation */
+
+header {
+    background-color: darkblue;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+}
