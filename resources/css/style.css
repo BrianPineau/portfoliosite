@@ -14,7 +14,7 @@ html {
 
 
 .sel-all {
-    grid-column: 1 / -1;
+    height: 100%;
 }
 
 /* navigation section */
@@ -24,8 +24,48 @@ header {
     z-index: 1000;
 }
 
-nav a {
+.inner-header {
+    display: block;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(218, 42, 42);
+}
+
+.logo-container {
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+.logo-container h1 {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.header-menu {
+    float: right;
+    height: 100%;
+}
+
+.header-menu a {
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0 14px;
     list-style-type: none;
+}
+
+.header-menu a: last child {
+    padding-right: 0;
+}
+
+.header-menu a li {
+    display: table-cell;
+    height: 100%;
+    font-size: 16px;
 }
 
 /* banner section */
